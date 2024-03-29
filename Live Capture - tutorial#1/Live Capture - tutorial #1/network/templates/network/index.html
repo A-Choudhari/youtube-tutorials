@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Tutorial</title>
+</head>
+<body>
+    <center>
+    <img style="border-radius: 25px;width:80%;height:80%;" src="{% url 'image' %}">
+    </center>
+    <div style="display:hidden">
+    <audio style="display:none;" id="audioPlayer" controls>
+        <source src="{% url 'audio' %}" type="audio/wav">
+
+    </audio>
+    </div>
+</body>
+</html>
